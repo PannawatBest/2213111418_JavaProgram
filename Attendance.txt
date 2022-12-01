@@ -1,4 +1,4 @@
-StudentID:2213111418	
-Fullname:Pannawat Sangthongdee
-AKA:Best
-ClassDetail:Control Statement & Confirm Dialog
+StudentID:  2213111418
+Fullname(in English):  Pannawat Sangthongdee
+AKA :Best
+ClassDetail:   Lab Sheet 4 : String Methods and Defined Metl

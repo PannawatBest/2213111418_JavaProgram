@@ -21,15 +21,15 @@ public class CheckStockProduct {
 		System.out.println("--------------------------------");
 		for (Product PDL : productlist) {
 			if (PDL.getUnit() < 5) {
-				System.out.println(">> " + PDL.getid() + " has " + PDL.getUnit() + " units");
+				System.out.println(">> "+PDL.getid()+" has "+PDL.getUnit()+" units");
 			}
 		}
 		System.out.println("--------------------------------");
 		System.out.println("List of product in 'NORMAL'status.");
 		System.out.println("--------------------------------");
 		for (Product PDL : productlist) {
-			if (PDL.getUnit() >= 5 && PDL.getUnit() <= 50) {
-				System.out.println(">> " + PDL.getid() + " has " + PDL.getUnit() + " units");
+			if (PDL.getUnit() >= 5&&PDL.getUnit()<=50) {
+				System.out.println(">> "+PDL.getid()+" has "+PDL.getUnit()+" units");
 			}
 		}
 		System.out.println("--------------------------------");
@@ -37,7 +37,7 @@ public class CheckStockProduct {
 		System.out.println("--------------------------------");
 		for (Product PDL : productlist) {
 			if (PDL.getUnit() > 50) {
-				System.out.println(">> " + PDL.getid() + " has " + PDL.getUnit() + " units");
+				System.out.println(">> "+PDL.getid()+" has "+PDL.getUnit()+" units");
 			}
 		}
 

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class StockProduct {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Product[] productlist = new Product[4];//define Array Object
+		for(int i=0;i<productlist.length;i++) {
+			productlist[i] = new Product();//declare array object ,call all of method Product()
+			System.out.print("Input product id    : ");
+		}
+
+	}
+
+}

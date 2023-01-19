@@ -1,5 +1,5 @@
-Date : 12-Jan-2023
+Date : 19-Jan-2023
 StudentID:  2213111418
 Fullname(in English):  Pannawat Sangthongdee
 AKA :Best
-ClassDetail:   GUI
+ClassDetail:   Encapsulation

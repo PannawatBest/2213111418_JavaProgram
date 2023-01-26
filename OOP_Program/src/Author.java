@@ -4,7 +4,7 @@ public class Author {
 	private String email;
 	private char gender;
 	
-	public Author(String name,String email,char gendar) {
+	public Author(String name,String email,char gender) {
 		this.name = name;
 		this.email = email;
 		this.gender = gender;
@@ -15,27 +15,26 @@ public class Author {
 		gender = ' ';
 	}
 	public Author() {
-		name = email = "";
+		name = email = " ";
 		gender = ' ';
 	}
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	public String getEmail() {
-		return email;
+		return this.email;
 	}
 	public String getGenderName() {
-		if(Character.toLowerCase(this.gender)=='M') {
+		if(gender=='m') {
 			return "Male";
 		}
-		else if(Character.toLowerCase(this.gender)=='F') {
+		else if(gender=='f') {
 			return "Female";
-		}else {
-			return "";
-		}
+		}else return "";
+		
 	}
 	public String toString() {
-		return "Author name: "+name+"("+email+";"+getGenderName()+")";
+		return "Author name: "+getName()+"("+getEmail()+";"+this.getGenderName()+")";
 	}
 
 }

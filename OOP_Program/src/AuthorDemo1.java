@@ -9,10 +9,10 @@ public class AuthorDemo1 {
 		System.out.print("Input author e-mail : ");
 		String email=scan.nextLine();
 		System.out.print("Input author gender : ");
-		char gender=scan.nextLine().toLowerCase().charAt(0);
+		char gender=scan.next().charAt(0);
 		Author author = new Author(name,email,gender);
 		
-		System.out.println("\n"+author.toString());
+		System.out.println("\n"+author);
 		
 
 	}

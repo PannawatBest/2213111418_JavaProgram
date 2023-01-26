@@ -1,4 +1,4 @@
-
+//Test Commit
 public class TestCustomer {
 
 	public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class TestCustomer {
 	}//end of main method()
 	public static void Line() {
 		for(int i =0;i<65;i++)  //use for() statement to display symbol *
-			System.out.print("*");
+			System.out.print("*");//end of for
 			
 		System.out.println();
 	}

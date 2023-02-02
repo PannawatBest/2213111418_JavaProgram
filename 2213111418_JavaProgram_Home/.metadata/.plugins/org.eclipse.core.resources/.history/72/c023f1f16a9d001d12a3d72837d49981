@@ -1,0 +1,21 @@
+
+public class TestCustomer {
+
+	public static void main(String[] args) {
+		System.out.println("###Test Customer class###");
+		Customer c1 = new Customer(1088, "Conan Edogawa", 10);
+		System.out.println(c1);    //Customer's toString()
+		c1.setDiscount(5);		   //set customer's discount is 5
+		System.out.println(c1);    //Customer's toString
+		Line();
+		System.out.println("id is:"+c1.getID());
+
+	}
+	public static void Line() {
+		for(int i =0;i<50;i++)
+			System.out.print("*");
+			
+		System.out.println();
+	}
+
+}

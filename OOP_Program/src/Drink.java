@@ -51,5 +51,8 @@ public class Drink {
 			return 0;
 		}
 	}
+	public int getTotalPrice() {
+		return getTypePrice()+getSizePrice();
+	}
 
 }
